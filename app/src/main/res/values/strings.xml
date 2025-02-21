@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PhotoSliderCamera</string>
+    <string name="photopro">Photopro</string>
+    <string name="get_started">Bắt đầu</string>
+    <string name="get_permission">Cấp quyền</string>
+    <string name="des_per">Vui lòng cho phép truy cập camera và bộ nhớ</string>
+    <string name="accpet">Chấp nhận</string>
+    <string name="deny">Từ chối</string>
+    <string name="des_per_2">Bạn cần cấp quyền để ứng dụng có thể hoạt động. Bạn có thể cấp quyền tại Cài đặt -> Quyền ứng dụng.></string>
+    <string name="go_to_setting">Đi tới cài đặt</string>
+    <string name="preview">Xem trước</string>
+    <string name="create_slide">Tạo slide</string>
+    <string name="album">Album ảnh</string>
+    <string name="no_image">Không có ảnh nào trong thư mục này</string>
+    <string name="must_select_image">Bạn phải chọn ít nhất 2 ảnh để tạo slide.</string>
+    <string name="max_is_10">Chỉ có thể chọn tối đa 10 ảnh.</string>
+    <string name="setting">Cài đặt</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="tutorial">Hướng dẫn</string>
+    <string name="private_policy">Chính sách riêng tư</string>
+    <string name="share_app">Chia sẻ ứng dụng</string>
+    <string name="rate_app">Đánh giá ứng dụng</string>
+</resources>

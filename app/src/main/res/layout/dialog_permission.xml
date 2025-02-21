@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="32dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/bg_dialog"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tv_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/get_permission"
+        android:textColor="#222222"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/des_per"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/des_per"
+        android:textColor="#222222"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_permission" />
+
+    <TextView
+        android:id="@+id/accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_button"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:text="@string/accpet"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/des_per" />
+
+    <TextView
+        android:id="@+id/deny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_button_deny"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:text="@string/deny"
+        android:textColor="#222222"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/accept" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
